@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SAIKO</title>
+    <!-- Font Icons -->
+    <script src="https://kit.fontawesome.com/0bfdb5764e.js" crossorigin="anonymous"></script>
+    <!-- css file -->
+    <link rel="stylesheet" href="src/css/main.css" />
+  </head>
+  <body>
+    <!-- Nav bar and the product introductory -->
+    <header>
+      <nav class="nav-bar">
+        <div class="navigation-logo-cart">
+          <span class="nav-icon">
+            <i class="fas fa-bars"></i>
+          </span>
+          <img
+            class="company-logo"
+            src="img/other/logo.jpg.png"
+            alt="company logo"
+          />
+          <span class="cart-navigation">
+            <i class="fas fa-shopping-cart"></i>
+          </span>
+        </div>
+      </nav>
+      <div class="slogan">
+        <h1>Premium Fashion</h1>
+      </div>
+      <!--Sliding menu  -->
+      <section class="no-overlay">
+        <div class="sliding-menu-container">
+          <div class="sliding-menu">
+            <button class="hideCart"><i class="fas fa-times"></i></button>
+            <h1>Your Cart</h1>
+            <div class="cart-items-container">
+              <!-- <div class="cart-items" id="">
+                <img
+                  class="cart-addedImg"
+                  src="img/Denim painter pants + X.jpg"
+                  alt="painter pants"
+                />
+                <div class="product-details">
+                    <h4>Denim painter pants</h4>
+                    <h4 class="price">5500¥</h4>
+                    <span class="remove-current-item">remove</span>  
+                </div>
+                <div class="quantity-container">
+                  <div class="inner-quantity-container">
+                    <button class="minus">-</button>
+                    <input
+                      type="text"
+                      value="1"
+                      min="1"
+                      class="quantity"
+                      readonly
+                      
+                    />
+                    <button class="plus">+</button>
+                  </div>
+                </div>
+              </div> -->
+            </div>
+
+            <div class="total-container">
+              <h3>Total : <span class="total-amount"></span></h3>
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <!-- Product Section -->
+    <main>
+      <div class="section-title">
+        <h1>SPRING COLLECTION</h1>
+      </div>
+      <ul class="product-container">
+        <!-- <li class="product">
+          <div class="image-container">
+            <img
+              class="product-image"
+              src="img/Denim painter pants + X.jpg"
+              alt="Denim pants"
+            />
+            <div class="item-add">
+              <button class="addTo-cart" id="1">
+                <i class="fas fa-cart-plus"></i>add to cart
+              </button>
+            </div>
+
+          </div>
+        </li>
+        <li class="product">
+          <div class="image-container">
+            <img
+              class="product-image"
+              src="img/Easy ankle pants (glen check).jpg"
+              alt="Denim pants"
+            />
+            <div class="item-add">
+              <button class="addTo-cart" id="2">
+                <i class="fas fa-cart-plus"></i>add to cart
+              </button>
+            </div>
+          </div>
+        </li>
+        <li class="product">
+          <div class="image-container">
+            <img
+              class="product-image"
+              src="img/Flap pocket shirt (long sleeve) + X.jpg"
+              alt="Denim pants"
+            />
+
+            <button class="addTo-cart" id="3">
+              <i class="fas fa-cart-plus"></i>add to cart
+            </button>
+          </div>
+        </li>
+        <li class="product">
+          <div class="image-container">
+            <img
+              class="product-image"
+              src="img/Knit cardigan (long sleeve) CL + E.jpg"
+              alt="Denim pants"
+            />
+
+            <button class="addTo-cart" id="4">
+              <i class="fas fa-cart-plus"></i>add to cart
+            </button>
+          </div>
+        </li>
+        <li class="product">
+          <div class="image-container">
+            <img
+              class="product-image"
+              src="img/Open collar shirt.jpg"
+              alt="Denim pants"
+            />
+
+            <button class="addTo-cart" id="5">
+              <i class="fas fa-cart-plus"></i>add to cart
+            </button>
+          </div>
+        </li>
+        <li class="product">
+          <div class="image-container">
+            <img
+              class="product-image"
+              src="img/Oversized pull parka.jpg"
+              alt="Denim pants"
+            />
+
+            <button class="addTo-cart" id="6">
+              <i class="fas fa-cart-plus"></i>add to cart
+            </button>
+          </div>
+        </li>
+        <li class="product">
+          <div class="image-container">
+            <img
+              class="product-image"
+              src="img/regular jeans.jpg"
+              alt="Denim pants"
+            />
+
+            <button class="addTo-cart" id="7">
+              <i class="fas fa-cart-plus"></i>add to cart
+            </button>
+          </div>
+        </li>
+        <li class="product">
+          <div class="image-container">
+            <img
+              class="product-image"
+              src="img/sweat half pants.jpg"
+              alt="Denim pants"
+            />
+
+            <button class="addTo-cart" id="8">
+              <i class="fas fa-cart-plus"></i>add to cart
+            </button>
+          </div>
+        </li>
+        <li class="product">
+          <div class="image-container">
+            <img
+              class="product-image"
+              src="img/Trouser jogger pants (stripe) + X.jpg"
+              alt="Denim pants"
+            />
+
+            <button class="addTo-cart" id="9">
+              <i class="fas fa-cart-plus"></i>add to cart
+            </button>
+          </div>
+        </li>
+        <li class="product">
+          <div class="image-container">
+            <img
+              class="product-image"
+              src="img/Windproof shell parka.jpg"
+              alt="Denim pants"
+            />
+
+            <button class="addTo-cart" id="10">
+              <i class="fas fa-cart-plus"></i>add to cart
+            </button>
+          </div>
+        </li> -->
+      </ul>
+    </main>
+    <!-- Footer Section -->
+    <footer>
+      <section class="inner-footer">
+        <div class="about-section">
+          <h3>about</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis
+            fugit inventore, vitae totam incidunt tenetur exercitationem,
+            aliquam iusto quos, amet corporis! In laborum cum autem, aliquam
+            ducimus error quidem eaque.
+          </p>
+        </div>
+        <div class="visit-section">
+          <h3>contact</h3>
+          <ul class="socials-section">
+            <li><a class="links" href="#">facebook</a></li>
+            <li><a class="links" href="#">Instagram</a></li>
+            <li><a class="links" href="#">Gmail</a></li>
+          </ul>
+        </div>
+        <div class="contact-section">
+          <h3>visit</h3>
+          <p>3-29-1 Sakae, Naka-ku, Nagoya City, Aichi</p>
+        </div>
+      </section>
+    </footer>
+  </body>
+  <!-- animation functions -->
+  <script src="src/windowAnimation.js"></script>
+  <!-- contentful -->
+  <script src="https://cdn.jsdelivr.net/npm/contentful@latest/dist/contentful.browser.min.js"></script>
+  <!-- using json for products data -->
+  <!-- <script src="app.js"></script> -->
+  <!-- using contenful for product data  -->
+  <script src="appContentful.js.js"></script>
+</html>

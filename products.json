@@ -1,0 +1,85 @@
+{
+  "items": [
+    {
+      "sys": { "id": "1" },
+      "fields": {
+        "title": "Denim painter pants + X",
+        "price": 1400,
+        "image": { "fields": { "file": { "url": "img/Denim painter pants + X.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "2" },
+      "fields": {
+        "title": "Easy ankle pants",
+        "price": 3000,
+        "image": { "fields": { "file": { "url": "img/Easy ankle pants (glen check).jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "3" },
+      "fields": {
+        "title": "Flap pocket shirt",
+        "price": 700,
+        "image": { "fields": { "file": { "url": "img/Flap pocket shirt (long sleeve) + X.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "4" },
+      "fields": {
+        "title": "Knit cardigan ",
+        "price": 2500,
+        "image": { "fields": { "file": { "url": "img/Knit cardigan (long sleeve) CL + E.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "5" },
+      "fields": {
+        "title": "Open collar shirt",
+        "price": 4500,
+        "image": { "fields": { "file": { "url": "img/Open collar shirt.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "6" },
+      "fields": {
+        "title": "Oversized pull parka",
+        "price": 1299,
+        "image": { "fields": { "file": { "url": "img/Oversized pull parka.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "7" },
+      "fields": {
+        "title": "regular jeans",
+        "price": 1899,
+        "image": { "fields": { "file": { "url": "img/regular jeans.jpg" } } }
+      }
+    },
+    { 
+      "sys": { "id": "8" },
+      "fields": {
+        "title": "sweat half pants",
+        "price": 1199,
+        "image": { "fields": { "file": { "url": "img/sweat half pants.jpg" } } }
+      }
+    },
+    { 
+      "sys": { "id": "9" },
+      "fields": {
+        "title": "Trouser jogger pants",
+        "price": 3499,
+        "image": { "fields": { "file": { "url": "img/Trouser jogger pants (stripe) + X.jpg" } } }
+      }
+    },
+    { 
+      "sys": { "id": "10" },
+      "fields": {
+        "title": "Windproof shell parka",
+        "price": 2299,
+        "image": { "fields": { "file": { "url": "img/Windproof shell parka.jpg" } } }
+      }
+    }
+
+  ]
+}
